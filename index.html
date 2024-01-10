@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+<!-- Start NavBar -->
+    <nav class="navbar navbar-expand-lg bg-dark p-2 py-3 text-white d-flex justify-content-center" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-5 text-white" href="#index.html">
+                <img src="images/logo.png" width="64" alt="Weather-logo">
+                Weather
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-light" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 my-4">
+                <li class="nav-item me-4">
+                <a class="nav-link active hom" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item me-4">
+                <a class="nav-link abo" href="#about">News</a>
+                </li>
+                <li class="nav-item me-4">
+                <a class="nav-link ser" href="#services">Live cameras</a>
+                </li>
+                <li class="nav-item me-4">
+                <a class="nav-link wor" href="#works">Photos</a>
+                </li>
+                <li class="nav-item me-4">
+                <a class="nav-link cli" href="#clients">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+<!-- Start Home -->
+    <section id="home">
+        <div class="backgroung-img">.
+                <form class="find-location position-relative m-5 w-75 mx-auto ">
+                    <input type="text" placeholder="Find your location..." id="search" class="w-100 txt text-white">
+                    <input type="button" value="Find" id="submit" class="btn btn-primary position-absolute">
+                </form>
+                <div class="row bg-dark text-white w-75 mx-auto gy-2" id="forecast">
+                    <div class="col-md-4 p-3" id="day1">
+
+                    </div>
+                    <div class="col-md-4 two p-3" id="day2">
+
+                    </div>
+                    <div class="col-md-4 two p-3" id="day3">
+
+                    </div>
+                </div>
+        .</div>
+    </section>
+<!-- Start Footer -->
+    <footer>
+        <div class="box bg-dark py-5">
+            <div class="row w-75 mx-auto align-items-center">
+                <div class="col-md-8">
+                    <form action="#" class="position-relative">
+                        <input type="text" placeholder="Enter your email..." class="input text-white w-100 bg-light ">
+                        <input type="submit" value="Subscribe" class="btn btn-primary position-absolute">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1 d-flex align-items-center justify-content-center py-2">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                        <a href="#"><i class="fa-brands fa fa-twitter fa-2xl"></i></a>
+                        <a href="#"><i class="fa-brands fa fa-google-plus fa-2xl"></i></a>
+                        <a href="#"><i class="fa-brands fa fa-pinterest fa-2xl"></i></a>
+                    </div>
+                </div>
+                <p class="text-white mt-2">Copyright 2024 M-K. Designed by Mohamed Kamel. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

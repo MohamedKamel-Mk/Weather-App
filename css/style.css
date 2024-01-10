@@ -1,0 +1,58 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+nav .container a{
+    color: white !important;
+    padding: 5px 20px !important;
+}
+
+.active{
+    color: #08A7DA !important ;
+    border: 2px solid #08A7DA ;
+    border-radius: 25px;
+}
+li a:hover{
+    border: 2px solid #08A7DA ;
+    border-radius: 25px;
+    transition: border .3s ease-in;
+}
+.backgroung-img{
+    background-image: url(../images/snow-mountains.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* min-height: 100vh; */
+}
+.txt{
+    padding: 10px 20px 20px 20px !important;
+    background: #212529;
+    color: white;
+    border-radius: 30px;
+}
+.btn{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px !important;
+    border-radius: 30px;
+}
+.info-num{
+    font-size: 60px;
+    margin-block: 20px;
+}
+#home .col-md-4:nth-child(2){
+    background-color: #323544 !important;
+}
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+.info-txt{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px !important;
+}
+.input{
+    padding: 10px 20px 20px 20px !important;
+    border-radius: 30px;
+}
